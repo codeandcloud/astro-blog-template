@@ -12,6 +12,7 @@ tags: ["christmas", "carol"]
 
 ## We Three Kings of Orient Are
 
+<pre>
 We three kings of orient are
 Bearing gifts we traverse afar
 Field and fountain
@@ -47,3 +48,4 @@ O star of wonder, star of night
 Star with royal beauty bright
 Westward leading, still proceeding
 Guide us to thy perfect light
+</pre>
