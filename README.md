@@ -1,29 +1,42 @@
-# Astro Starter Kit: Minimal
+# Astro Blog Template
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Created using the [Build your first Astro Blog tutorial](https://docs.astro.build/en/tutorial/0-introduction/).
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+It also has
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+1. Astro Island with Preact
+2. Extended with Content Collections
+3. Extended with View Transitions
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+Basic project structure
 
 ```text
 /
 ├── public/
 ├── src/
+│   └── components/
+│       └── Header.astro
+│       └── ....
+│   └── content/
+│       └── posts/
+│           └── post1.md
+│           └── post2.md
+│           └── ....
+│   └── layouts/
+│       └── BaseLayout.astro
+│       └── MarkdownPostLayoutLayout.astro
 │   └── pages/
+│       └── posts/
+│       └── tags/
 │       └── index.astro
+│       └── ....
+│       └── rss.xml.js
+│   └── scripts/
+│   └── styles/
 └── package.json
 ```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
 There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
@@ -42,6 +55,6 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## 👀 Want more information?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Feel free to check [Astro Docs](https://docs.astro.build) or jump into [Astro Lounge(Discord)](https://astro.build/chat).
